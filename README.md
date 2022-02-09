@@ -1,4 +1,4 @@
-# doepfer-filterbank-mod
+# Doepfer A-128 fixed filter bank MOD
 Extending the Doepfer A-128 fixed filter bank eurorack module with 4 bypass switches.
 
 ## Who is it for?
@@ -13,7 +13,9 @@ With a few bucks for material and 1 hour of work you can create an extension mod
  - **Switch 3:** mute all **mid** frequencies (~200 - 1500 Hz)
  - **Switch 4:** mute all **low** frequencies (below ~200 Hz)
 
+[<img src="media/doepfer-filterbank-mod-assembled-020.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-020.png?raw=true)
 [<img src="media/doepfer-filterbank-mod-assembled-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-010.png?raw=true)
+[<img src="media/doepfer-filterbank-bypass-mod-frontpanel.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-bypass-mod-frontpanel.png?raw=true)
 
 ## Will my filter bank still be functional without the extension module after modding?
 Yes, simply place 4 jumpers in the breakout connector. The signal flow will be exactly the same like without the mod.
@@ -38,7 +40,7 @@ Ensure that there is **no connectivity** between the pins shown in the picture b
 [<img src="media/doepfer-filterbank-mod-drill-020.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-drill-020.png?raw=true)  
 
 Solder 2 wires into the connection points next to the drilled hole.  
-I used a `red wire` for `AUDIO INPUT` which has conectivity to the tip of the input jack and a `black wire` which is the audio input for the low frequencies circuit.  
+I used a `red wire` for `AUDIO INPUT` which has connectivity to the tip of the input jack and a `black wire` which is the audio input for the low frequencies circuit.  
 
 [<img src="media/doepfer-filterbank-mod-pcb1-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-pcb1-010.png?raw=true)
 

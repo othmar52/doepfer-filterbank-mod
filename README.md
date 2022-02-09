@@ -9,9 +9,9 @@ With a few bucks for material and 1 hour of work you can create an extension mod
 
 ## What does it do?
  - **Switch 1:** bypass the whole filter module and send the incoming signal directly to the output
- - **Switch 2:** mute all **low** frequencies (below ~200 Hz)
+ - **Switch 2:** mute all **high** frequencies (greater ~1500 Hz)
  - **Switch 3:** mute all **mid** frequencies (~200 - 1500 Hz)
- - **Switch 4:** mute all **high** frequencies (greater ~1500 Hz)
+ - **Switch 4:** mute all **low** frequencies (below ~200 Hz)
 
 [<img src="media/doepfer-filterbank-mod-assembled-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-010.png?raw=true)
 
@@ -20,7 +20,7 @@ Yes, simply place 4 jumpers in the breakout connector. The signal flow will be e
 
 ![Doepfer Filter Bank MOD](media/doepfer-filterbank-mod-jumpers.jpg "Doepfer Filter Bank MOD") 
 
-# Step by step instructions
+# Step by step build instructions
 
 ## 1. Desolder audio input wire that connects the 3 PCB's
 Find and desolder the wire on the upper half of the module that connects the 3 PCB's with label `AUDIO INPUT`.  
@@ -38,7 +38,7 @@ Ensure that there is **no connectivity** between the pins shown in the picture b
 [<img src="media/doepfer-filterbank-mod-drill-020.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-drill-020.png?raw=true)  
 
 Solder 2 wires into the connection points next to the drilled hole.  
-I used a `red wire` for `AUDIO INPUT` which has conectiviry to the tip of the input jack and a `black wire` which is the audio input for the low frequencies circuit.  
+I used a `red wire` for `AUDIO INPUT` which has conectivity to the tip of the input jack and a `black wire` which is the audio input for the low frequencies circuit.  
 
 [<img src="media/doepfer-filterbank-mod-pcb1-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-pcb1-010.png?raw=true)
 
@@ -47,7 +47,7 @@ Solder another wire next to the `OUTPUT`-jack.
 [<img src="media/doepfer-filterbank-mod-pcb1-020.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-pcb1-020.png?raw=true)
 
 ## 3. Modifications on PCB2 + PCB3 (mid + high frequencies)
-Solder 2 wires into the holes where you removed the `AUDIO INPUT` connection wire in **step 1**  
+Solder 2 wires into the holes where you removed the `AUDIO INPUT` connection wire in **step 1** on PCB2 and PCB3  
 
 [<img src="media/doepfer-filterbank-mod-pcb2-pcb3-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-pcb2-pcb3-010.png?raw=true)
 
@@ -69,12 +69,15 @@ Hot glue is your friend - again
 
 ## 7. create cable and front panel
 
-  - Create a `2HP` aluminium front panel `128.5mm` x `9.8mm` or use a [blank panel Doepfer A-100 B2](https://doepfer.de/a100z_e.htm#blind%20panels)
+  - Create a `2HP` aluminium front panel `128.5mm` x `9.8mm` x `2mm` or use a [blank panel Doepfer A-100 B2](https://doepfer.de/a100z_e.htm#blind%20panels)
   - drill 4 holes for the switches
+  - mount the 4 switches
   - solder the cables to the switches  
 
-*TODO: add circuit schemtaics for the switches*  
+*TODO: add circuit schematics for the switches*  
 
 [<img src="media/doepfer-filterbank-mod-cable-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-cable-010.png?raw=true)
 [<img src="media/doepfer-filterbank-mod-cable-020.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-cable-020.png?raw=true)
-[<img src="media/doepfer-filterbank-mod-assembled-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-010.png?raw=true)
+[<img src="media/doepfer-filterbank-mod-assembled-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-010.png?raw=true)  
+
+[**Doepfer Filter Bank Bypass Breakout** on modulargrid.net](https://www.modulargrid.net/e/other-unknown-a-128-bypass-breakout)

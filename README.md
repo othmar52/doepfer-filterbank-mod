@@ -83,3 +83,7 @@ Hot glue is your friend - again
 [<img src="media/doepfer-filterbank-mod-assembled-010.png" height="150" />](https://raw.githubusercontent.com/othmar52/doepfer-filterbank-mod/main/media/doepfer-filterbank-mod-assembled-010.png?raw=true)  
 
 [**Doepfer Filter Bank Bypass Breakout** on modulargrid.net](https://www.modulargrid.net/e/other-unknown-a-128-bypass-breakout)
+
+
+
+see my other [eurorack DIY projects](https://github.com/othmar52/eurorack)
